@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+
+@import "reset.css";
+
+@import "style.css";
+
+@import "part/part-one.css";
+@import "part/part-two.css";
+@import "part/part-three.css";

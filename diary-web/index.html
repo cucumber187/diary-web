@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary</title>
+    <link rel="stylesheet" href="css/import.css" />
+</head>
+
+<body>
+    <img class="background-img" src="" />
+
+    <div class="part-one">
+        <div class="memo">
+            <h1 class="memo__title">One day, One promise</h1>
+            <form class="memo__form">
+                <input class="memo__input" type="text" />
+            </form>
+            <span class="memo__text"></span>
+        </div>
+
+        <div class="calendar">
+            <span class="calendar__year-month"></span>
+            <div class="calendar__day grid">
+                <div class="calendar-grid">Sun</div>
+                <div class="calendar-grid">Mon</div>
+                <div class="calendar-grid">Tus</div>
+                <div class="calendar-grid">Wed</div>
+                <div class="calendar-grid">Thu</div>
+                <div class="calendar-grid">Fri</div>
+                <div class="calendar-grid">Sat</div>
+            </div>
+    
+            <div class="grid date"></div>
+        </div>
+
+    </div>
+
+    <div class="part-two">
+        <div class="login">
+            <h1 class="login-name">What is your name?</h1>
+            <form class="login-form">
+                <input class="name-text" typa="text" reqiured maxlength="13" />
+                
+            </form>
+        </div>
+
+        <div class="time">
+            <span class="time__hours"></span>
+            <span class="dotdot">:</span>
+            <span class="time__minutes"></span>
+            <span class="time__seconds"></span>
+        </div>
+    </div>
+
+    <div class="part-three">
+        <div class="todo">
+            <h2 class="todo-list__title">To do list</h2>
+            <form class="todo-list__form">
+                <input class="todo-list__input" type="text" required />
+            </form>
+            <ul class="todo-list">
+        
+            </ul>
+        </div>
+
+        <div class="quotes">
+            <span class="quotes-text"></span>
+            <span class="quotes-author"></span>
+        </div>
+
+        <div class="weather">
+            <div class="weather__location-temp">
+                <span class="weather__location"></span>
+                <span class="weather__temp"></span>
+            </div>
+            <span class="weather__weather"></span>
+
+        </div>
+    </div>
+
+
+    <script src="js/login.js"></script>
+    <script src="js/list.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/youtube.js"></script>
+    <script src="js/time.js"></script>
+    <script src="js/memo.js"></script>
+    <script src="js/calendar.js"></script>
+    <script src="js/background.js"></script>
+</body>
+</html>

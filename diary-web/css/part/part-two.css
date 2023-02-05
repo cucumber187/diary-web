@@ -1,0 +1,49 @@
+.part-two{
+    align-items: center;
+}
+
+.login-name{
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    margin-top: 230px;
+}
+
+.hidden{
+    display: none;
+}
+/*clock*/
+.time{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 70px;
+}
+.time__hours,
+.time__minutes,
+.dotdot{
+    font-size: 150px;
+}
+
+.time__hours{
+    margin-left: 50px;
+}
+
+.time__seconds{
+    width: 50px;
+    font-size: 30px;
+    margin-top: 105px;
+}
+
+.name-text{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+}
